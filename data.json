@@ -7,5 +7,42 @@
 	},
 	"career":{
 		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-	}
+	},
+
+"education":[
+ {
+    "degree":"B-TECH(computer science and engineering)",
+    "institute":"vignan Nirula",
+    "Data":["2016-20","8.8%"]
+ },
+ {
+    "degree":"intermediate",
+    "institute":"RGUKT",
+    "Data":["2014-16","7.3%"]
+ },
+ {
+    "degree":"S.S.C",
+    "institute":"SPVZPHigh school",
+    "Data":["2013-2014","9.8"]
+ }
+
+],
+"skills":[
+{
+	"title":"programming languages",
+	"content":["python","c","java","R","cpp"]
+},
+{
+	"title":"DataBases",
+	"content":["sql","oracle","mysql"]
+},
+{
+	"title":"webtechnologies",
+	"content":["html","xml","javascript","css"]
+},
+{
+	"title":"operating systems",
+	"content":["windows","linux","unix"]
+}
+]
 }

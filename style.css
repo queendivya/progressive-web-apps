@@ -1,3 +1,31 @@
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+tr:nth-child(even){
+	background:#ddd;
+	box-shadow: 3px 3px 3px #ddd; 
+}
+td,
+th{
+	padding:1%;
+
+}
+.skdiv{
+	width:100%;
+	border-left:3px solid #0E4DBA;
+	padding:1%;
+	margin:1%;
+}
+span{
+	background: #0E4DBA;
+	color:#fff;
+	border:1px solid #082D6E;
+	box-shadow:3px 3px 3px #ddd;
+	margin:1%;
+	padding:1%;
+	border-radius: 5px;
+}
 .parent{
 	display:flex;
     flex-direction:row;
@@ -30,7 +58,7 @@
 		}
 		h2{
 			text-align: center;
-			color:red;
+			
 		}
 
  a{
@@ -40,3 +68,90 @@
  p{
  	font-size: 20px;
  }
+ /*for small screen*/
+ @media only screen and (min-width:320px) and (max-width:480px) {
+ 	.parent{
+	display:flex;
+    justify-content:center;
+    background:grey;
+    flex-direction: column;
+   
+     }
+ .child1{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:pink;
+
+ }
+  .child2{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:pink;
+
+ }
+
+ }
+ /*for medium screen*/
+ @media only screen and (min-width:481px) and (max-width:768px){
+ 	.parent{
+	display:flex;
+    justify-content:center;
+    background:grey;
+    flex-direction: column;
+   
+     }
+ .child1{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:blue;
+
+ }
+  .child2{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:blue;
+
+ }
+
+
+ } 
+ /*for large screen*/
+ @media only screen and (min-width:769px) and (max-width:1024px){
+ 	.parent{
+	display:flex;
+    justify-content:center;
+    background:grey;
+    flex-direction: column;
+   
+     }
+ .child1{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:grey;
+
+ }
+  .child2{
+ 	width:100%;
+ 	border:1px solid #ddd;
+ 	padding:1%;
+ 	margin:1%;
+ 	background:grey  ;
+
+ }
+ *{
+ 	font-size: 30px;
+ }
+ 	
+
+
+ } 
