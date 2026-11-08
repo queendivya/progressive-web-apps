@@ -10,6 +10,7 @@ function loadjson(file){
 		})
 	})
 }
+#this is the main.js file which fetches the data from the data.json file and then calls the functions to display the data on the webpage. The loadjson function returns a promise that resolves with the JSON data if the fetch is successful, or rejects with an error if it fails. The fetchedData variable holds the promise returned by loadjson, and when it resolves, it calls the career, education, and skills functions with the respective data.
 var fetchedData=loadjson("data.json");
 fetchedData.then(data=>{
 	console.log(data);
